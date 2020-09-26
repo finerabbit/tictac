@@ -32,7 +32,7 @@ class Board extends React.Component {
         <div className="status">{status}</div>
         <div className="board-row">
           {this.renderSquare(0)}
-          {this.renderSquare(1)}
+          {<Square value=1 />}
           {this.renderSquare(2)}
         </div>
         <div className="board-row">
